@@ -329,4 +329,62 @@ h1
     text-align: center;
    
   }
+
+ * {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color /* Grey background */
+  
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: black; /* White text color */
+}
+
+.html {width: 90%; background-color:green; padding: 1%;} /* Greben */
+.css {width: 50%; background-color: #2196F3;} /* Blue */
+.js {width: 80%; background-color: #f44336;} /* Red */
+.php {width: 90%; background-color: #808080;} /* Dark Grey */
+
+
+@media screen {
+    
+}
+
+form
+{
+    text-align: left;
+}
+.html:hover
+{
+    background-color:yellowgreen;
+    margin: 0;
+}
+
+
+
+.css:hover
+{
+    background-color:yellowgreen;
+    margin: 0;
+}
+
+
+.js:hover
+{
+    background-color:yellowgreen;
+    margin: 0;
+}
+.php:hover
+{
+    background-color:yellowgreen;
+    margin: 0;
+}
+
+
   

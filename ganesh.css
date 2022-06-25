@@ -314,7 +314,7 @@ h1
     /* border-bottom: 5px solid yellow;
     border-block-start-width: 5px;
     border */
-    text-decoration: underline;
+    
     text-indent: 2px;
     text-align: center;
 
@@ -327,8 +327,6 @@ h1
     font-size: 50px;
     color:white;
     text-align: center;
-    -webkit-animation: glowing-text 1s ease-in-out infinite alternate;
-    -moz-animation: glowing-text 1s ease-in-out infinite alternate;
-    animation: glowing-text 1s ease-in-out infinite alternate;
+   
   }
   

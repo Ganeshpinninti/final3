@@ -1,0 +1,443 @@
+*
+{
+   
+   
+}
+body
+{
+    overflow-x:hidden;
+}
+
+.pos
+{
+    background-color:navy;
+   
+    
+    position: absolute;
+   top: 0;
+    width:100%;
+    position: fixed;
+    height: fit-content;
+  z-index: 1;
+
+}
+
+
+.brand
+{
+    margin-left: 1%;
+    padding-left: 2%;
+
+    
+}
+h3
+{
+    font-size: 30px;
+}
+.head
+{
+    text-align: center;
+}
+#skills
+{
+  
+    background-color: #A8D8EA;
+  color: black;
+  width:50vw;
+  height:50vh;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu Mono', monospace;
+}
+
+
+.card
+{
+    padding: 1%;
+    margin: 1%;
+}
+#about
+{
+   background-image: url('ganesh.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+    text-align:center;
+    padding: 15%; 
+    font-size:70px;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu Mono', monospace;
+
+   
+}
+@media (max-width:750px) {
+    #skills
+    {
+        text-align: center;
+    }
+    /* .row
+    {
+        margin-left:15vw;
+        margin-right: 9.5vw;
+    } */
+    .bootstrap
+    {
+        font-size: 30px;
+    }
+   h1
+    {
+        text-align: center;
+      
+    }
+    img 
+    {
+        height: 100%;
+    width:100%;
+    }
+   
+h3,p
+{
+    text-shadow:5px
+} 
+    
+
+}
+@media (min-width:390px)
+{
+    .about{
+        background-size: cover;
+
+    }
+    
+    /* #carouselExampleControls
+    {
+      margin:0%;
+      margin-top: auto;
+    } */
+    .glowing-text
+    {
+        text-align: center;
+        margin-right:10%;
+    }
+    /* .forms
+    {
+        text-align: left;
+    } */
+   
+    
+}
+
+form
+{
+    text-align: center;
+}
+
+#copyright
+{
+    background-color: white;
+    color: black;
+}
+.css:hover
+{
+    background-color:yellowgreen;
+    margin: 0;
+}
+
+
+.js:hover
+{
+    background-color:yellowgreen;
+    margin: 0;
+}
+.php:hover
+{
+    background-color:yellowgreen;
+    margin: 0;
+}
+    
+
+.aboutganesh
+{
+    margin-bottom: 10%;
+}
+.head-cert
+{
+  margin-bottom: 10%;
+}
+img
+{
+    
+    height: 100%;
+    width:100%;
+    text-align: center;
+    border: 2px solid white;
+     border-radius: 0%;
+     padding: 5%;
+     margin-bottom: 3%;
+}
+#skills
+{
+    height:60vh;
+    width: 100vw;
+    text-align: center;
+   background-color:#FEF9A7;
+    color:black;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    padding: 2%;
+   
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu Mono', monospace;
+}
+#carouselExampleControls
+{
+    padding:5% 15%;
+   
+   
+    margin-top:0;
+  height:50vh;
+  width:100%;
+  text-align: center;
+  justify-content: center;
+  color: orange;
+   
+}
+i:hover
+{
+    color:yellow;
+}
+
+a:hover
+{
+    color:pink
+}
+
+#contact
+{
+    background-color: black;
+    text-align: center;
+    padding: 2%;
+    
+}
+.submit
+{
+    text-align: center;
+}
+.form
+{
+    margin-top:5%;
+    text-align: center;
+    padding: 2%;
+ 
+}
+#footer
+{
+   
+    color:white;
+    text-align: center;
+    line-height: 2;
+    padding:2%;
+}
+.c++
+{
+    height:25%;
+    width:25%;
+}
+.card{
+    height: 20rem;
+}
+.carousel-control-prev
+{
+    color: white;
+}
+
+button{
+    
+}
+h3
+{
+    text-align: center;
+    margin-bottom: 2%;
+    font-family: 'Montserrat';
+}
+#Certifications
+{
+   background-color:#E0F9B5;
+    color:white;
+    text-align:center;
+   margin-top: 3%;
+   margin-bottom: 2%;
+
+}
+a
+{
+    text-decoration: none;
+    color:white;
+}
+.row
+{
+    text-align: center;
+}
+.col-sm-6
+{
+    text-align: center;
+}
+.hello
+{
+    padding-top: 2%;
+    padding-left:18%;
+    padding-right: 10%;
+
+}
+.card
+{
+    margin-left:auto;
+    margin-right: auto;
+    height: max-content;
+}
+#codingprofiles
+{
+    background-color:#FEF9A7;
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    color: black;
+    padding:2%;
+}
+#aboutme
+{
+    margin-top: 2%;
+    text-align: center;
+}
+
+h1
+{
+    /* border-bottom: 5px solid yellow;
+    border-block-start-width: 5px;
+    border */
+    text-decoration: underline;
+    text-indent: 2px;
+    text-align: center;
+
+}
+
+
+
+
+#about {
+    font-size: 50px;
+    color:white;
+    text-align: center;
+    -webkit-animation: glowing-text 1s ease-in-out infinite alternate;
+    -moz-animation: glowing-text 1s ease-in-out infinite alternate;
+    animation: glowing-text 1s ease-in-out infinite alternate;
+  }
+  @-webkit-keyframes glowing-text {
+    0% {
+      text-shadow: 0 0 10px rgb(223, 23, 16), 0 0 20px rgb(62, 204, 15), 0 0 30px #2e00e6, 0 0 40px #e80e7b, 0 0 50px #08a2ba, 0 0 60px #e200e6, 0 0 70px #062f1e;
+  }
+    
+    100% {
+      text-shadow: 0 0 20px rgb(52, 1, 1), 0 0 30px #2b0fdd, 0 0 40px #10a550, 0 0 50px #ed067a, 0 0 60px #17e8f3, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+  
+
+  h1 {
+    font-size: 50px;
+    color:black
+    text-align: center;
+    -webkit-animation: glowing-text 1s ease-in-out infinite alternate;
+    -moz-animation: glowing-text 1s ease-in-out infinite alternate;
+    animation: glowing-text 1s ease-in-out infinite alternate;
+  }
+  @-webkit-keyframes glowing-text {
+    0% {
+      text-shadow: 0 0 10px rgb(189, 17, 17), 0 0 20px rgb(125, 212, 11), 0 0 30px #22c10d, 0 0 40px #2c1e03, 0 0 50px #2a033b, 0 0 60px #e200e6, 0 0 70px #e600ca;
+  }
+    
+    100% {
+      text-shadow: 0 0 20px rgb(74, 10, 10), 0 0 30px #c81971, 0 0 40px #ff4da6, 0 0 50px #2e0f85, 0 0 60px #abc33d, 0 0 70px #45a7bc, 0 0 80px #ff4da6;
+    }
+  }
+
+
+  
+
+
+
+
+  * {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color /* Grey background */
+  
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: black; /* White text color */
+}
+
+.html {width: 90%; background-color:green; padding: 1%;} /* Greben */
+.css {width: 50%; background-color: #2196F3;} /* Blue */
+.js {width: 80%; background-color: #f44336;} /* Red */
+.php {width: 90%; background-color: #808080;} /* Dark Grey */
+
+
+@media screen {
+    
+}
+
+form
+{
+    text-align: left;
+}
+.html:hover
+{
+    background-color:yellowgreen;
+    margin: 0;
+}
+
+
+
+.css:hover
+{
+    background-color:yellowgreen;
+    margin: 0;
+}
+
+
+.js:hover
+{
+    background-color:yellowgreen;
+    margin: 0;
+}
+.php:hover
+{
+    background-color:yellowgreen;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
